@@ -33,10 +33,10 @@ module colors {
     }
   }
   
-  WHITE = new Color(255, 255, 255);  // #FFFFFF
-  BLACK = new Color(  0,   0,   0);  // #000000
+  var WHITE = new Color(255, 255, 255);  // #FFFFFF
+  var BLACK = new Color(  0,   0,   0);  // #000000
   
-  GREY = [
+  var GREY = [
       new Color(250, 250, 250),  // [0] #FAFAFA
       new Color(245, 245, 245),  // [1] #F5F5F5
       new Color(238, 238, 238),  // [2] #EEEEEE
@@ -49,7 +49,7 @@ module colors {
       new Color( 33,  33,  33),  // [9] #212121
   ];
 
-  RED = [
+  var RED = [
       new Color(255, 235, 238),  // [0] #FFEBEE
       new Color(255, 205, 210),  // [1] #FFCDD2
       new Color(239, 154, 154),  // [2] #EF9A9A
@@ -62,7 +62,7 @@ module colors {
       new Color(183,  28,  28),  // [9] #B71C1C
   ];
 
-  BLUE = [
+  var BLUE = [
       new Color(227, 242, 253),  // [0] #E3F2FD
       new Color(187, 222, 251),  // [1] #BBDEFB
       new Color(144, 202, 249),  // [2] #90CAF9
@@ -75,7 +75,7 @@ module colors {
       new Color( 13,  71, 161),  // [9] #0D47A1
   ];
   
-  GREEN = [
+  var GREEN = [
       new Color(232, 245, 233),  // [0] #E8F5E9
       new Color(200, 230, 201),  // [1] #C8E6C9
       new Color(165, 214, 167),  // [2] #A5D6A7
@@ -88,7 +88,7 @@ module colors {
       new Color( 27,  94,  32),  // [9] #1B5E20
   ];
   
-  BROWN = [
+  var BROWN = [
       new Color(239, 235, 233),  // [0] #EFEBE9
       new Color(215, 204, 200),  // [1] #D7CCC8
       new Color(188, 170, 164),  // [2] #BCAAA4
