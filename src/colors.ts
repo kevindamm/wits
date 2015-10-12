@@ -62,6 +62,45 @@ module colors {
       new Color(183,  28,  28),  // [9] #B71C1C
   ];
 
+  var ORANGE = [
+      new Color(255, 243, 224),  // [0] #FFF3E0
+      new Color(255, 224, 178),  // [1] #FFE0B2
+      new Color(255, 204, 128),  // [2] #FFCC80
+      new Color(255, 183,  77),  // [3] #FFB74D
+      new Color(255, 167,  38),  // [4] #FFA726
+      new Color(255, 152,   0),  // [5] #FF9800
+      new Color(251, 140,   0),  // [6] #FB8C00
+      new Color(245, 124,   0),  // [7] #F57C00
+      new Color(239, 108,   0),  // [8] #EF6C00
+      new Color(230,  81,   0),  // [9] #E65100
+  ];
+
+  var YELLOW = [
+      new Color(255, 253, 231),  // [0] #FFFDE7
+      new Color(255, 249, 196),  // [1] #FFF9C4
+      new Color(255, 245, 157),  // [2] #FFF59D
+      new Color(255, 241, 118),  // [3] #FFF176
+      new Color(255, 238,  88),  // [4] #FFEE58
+      new Color(255, 235,  59),  // [5] #FFEB3B
+      new Color(253, 216,  53),  // [6] #FDD835
+      new Color(251, 192,  45),  // [7] #FBC02D
+      new Color(249, 168,  37),  // [8] #F9A825
+      new Color(245, 127,  23),  // [9] #F57F17
+  ];
+ 
+  var GREEN = [
+      new Color(232, 245, 233),  // [0] #E8F5E9
+      new Color(200, 230, 201),  // [1] #C8E6C9
+      new Color(165, 214, 167),  // [2] #A5D6A7
+      new Color(129, 199, 132),  // [3] #81C784
+      new Color(102, 187, 106),  // [4] #66BB6A
+      new Color( 76, 175,  80),  // [5] #4CAF50
+      new Color( 67, 160,  71),  // [6] #43A047
+      new Color( 56, 142,  60),  // [7] #388E3C
+      new Color( 46, 125,  50),  // [8] #2E7D32
+      new Color( 27,  94,  32),  // [9] #1B5E20
+  ];
+ 
   var BLUE = [
       new Color(227, 242, 253),  // [0] #E3F2FD
       new Color(187, 222, 251),  // [1] #BBDEFB
@@ -74,18 +113,31 @@ module colors {
       new Color( 21, 101, 192),  // [8] #1565C0
       new Color( 13,  71, 161),  // [9] #0D47A1
   ];
-  
-  var GREEN = [
-      new Color(232, 245, 233),  // [0] #E8F5E9
-      new Color(200, 230, 201),  // [1] #C8E6C9
-      new Color(165, 214, 167),  // [2] #A5D6A7
-      new Color(129, 199, 132),  // [3] #81C784
-      new Color(102, 187, 106),  // [4] #66BB6A
-      new Color( 76, 175,  80),  // [5] #4CAF50
-      new Color( 67, 160,  71),  // [6] #43A047
-      new Color( 56, 142,  60),  // [7] #388E3C
-      new Color( 46, 125,  50),  // [8] #2E7D32
-      new Color( 27,  94,  32),  // [9] #1B5E20
+
+  var INDIGO = [
+      new Color(232, 234, 246),  // [0] #E8EAF6
+      new Color(197, 202, 233),  // [1] #C5CAE9
+      new Color(159, 168, 218),  // [2] #9FA8DA
+      new Color(121, 134, 203),  // [3] #7986CB
+      new Color( 92, 107, 192),  // [4] #5C6BC0
+      new Color( 63,  81, 181),  // [5] #3F51B5
+      new Color( 57,  73, 171),  // [6] #3949AB
+      new Color( 48,  63, 159),  // [7] #303F9F
+      new Color( 40,  53, 147),  // [8] #283593
+      new Color( 26,  35, 126),  // [9] #1A237E
+  ];
+
+  var PURPLE = [
+      new Color(243, 229, 245),  // [0] #F3E5F5
+      new Color(225, 190, 231),  // [1] #E1BEE7
+      new Color(206, 147, 216),  // [2] #CE93D8
+      new Color(186, 104, 200),  // [3] #BA68C8
+      new Color(171,  71, 188),  // [4] #AB47BC
+      new Color(156,  39, 176),  // [5] #9C27B0
+      new Color(142,  36, 170),  // [6] #8E24AA
+      new Color(123,  31, 162),  // [7] #7B1FA2
+      new Color(106,  27, 154),  // [8] #6A1B9A
+      new Color( 74,  20, 140),  // [9] #4A148C
   ];
   
   var BROWN = [
