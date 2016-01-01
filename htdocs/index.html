@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Wits</title>
+  <link rel="stylesheet" href="style/colors.css">
+  <link rel="stylesheet" href="style/widgets.css">
+</head>
+
+<body>
+  <div id="view"></div>
+  
+  <script src="js/player.js"></script>
+  <script src="js/units.js"></script>
+  <script src="js/board.js"></script>
+  <script src="js/view.js"></script>
+  <script>
+var view = document.querySelector("#view");
+
+var canvas = document.createElement("canvas");
+canvas.id = "board";
+canvas.width = 800;
+canvas.height = 600;
+
+view.appendChild(canvas);
+
+var context = canvas.getContext("2d");
+
+// Example grid for rendering test.
+var tiles = [];
+for (var i = 0; i < 5; i++) {
+  var column = [];
+  for (var j = 0; j < 5; j++) {
+    var tile = {};
+    column.push(tile);
+  }
+  tiles.push(column);
+}
+tiles[0][0].void = true;
+tiles[0][4].void = true;
+tiles[1][4].void = true;
+tiles[3][4].void = true;
+tiles[4][0].void = true;
+tiles[4][4].void = true;
+
+board = { tiles: tiles, canvas: canvas, context: context, players: undefined };
+wits.view.renderBoard(board);
+  </script>
+</body>
+</html>
